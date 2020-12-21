@@ -7,3 +7,6 @@ Também foi mostrado o jeito de dicionário da frutas (como fosse um objeto json
 
 Na terceira aula foi explicado como é feito as estruturas, if, else, while, for e date.
 
+Na quarta aula foi mostrado como criar uma função e a diferença entre variáveis local e global.
+
+Na quinta aula foi criado botões. Foi mostrado também como criar um id e chama-lo na função. 

@@ -1,4 +1,5 @@
 //Primeira aula
+
 //var nome = "Tamires Pinheiro";
 //var idade = 30;
 //var idade2 = 10;
@@ -39,9 +40,10 @@
 //console.log(fruta.nome);mostrar só o nome da fruta
 //alert(fruta.cor);mostrar a cor da fruta
 
-//var frutas = [{nome:"maça", cor:"vermelha"},{nome:"uva", cor:"roxa"}] dicionário das frutas, parece um arquivo json
+//var frutas = [{nome:"maça", cor:"vermelha"},{nome:"uva", cor:"roxa"}] lista de dicionários, parece um arquivo json
 //console.log(frutas);
 //alert(frutas[1].nome);mostrar o nome uva
+
 
 //Terceira aula - Condicionais
 
@@ -85,8 +87,74 @@ for(count = 0; count <= 5; count ++){
 //alert(d.getHours());
 
 
+//Quarta aula - tipos de variáveis
+/*function soma(n1, n2){
+    return n1 + n2;
+}
+alert(soma(5, 10));
+*/
+
+/*function validaIdade(idade){
+    var validar; variável local
+    if(idade >= 18){
+        validar = true
+    }else{
+        validar = false
+    }
+    return validar;
+}
+
+var idade = prompt("Quantos anos você tem?");
+console.log(validaIdade(idade));
+*/
+
+/*var validar = 0; variaável global
+function validaIdade(idade){
+    validar;
+    if(idade >=18){
+        validar = true
+    }else{
+        validar = false
+    }
+    return validar;
+}
+
+var idade =  prompt("quantos anos você tem?");
+validaIdade(idade)
+console.log(validar);
+*/
 
 
+//Quinta aula - manipulando página
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigada por clicar</b>";/*injetar html no js*/
+    /*console.log(document.getElementById("agradecimento"));localizar esse id*/
+    /*alert("Obrigada por clicar");com o popup*/
+}
+
+function redirecionar(){
+    window.open("https://digitalinnovation.one/");/*abre na outra página*/
+    /*window.location.href = "https://digitalinnovation.one/";abre na mesma página*/
+}
+
+function trocar(elemento){
+    /*document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";*/
+    elemento.innerHTML = "Obrigado por passar o mouse";
+    /*alert("trocar texto");*/
+}
+
+function voltar(elemento){
+    /*document.getElementById("mousemove").innerHTML = "passe mais uma vez o mouse aqui";*/  
+    elemento.innerHTML = "passe mais uma vez o mouse aqui";
+}
+
+function load(){
+    alert("página carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
 
 
 
